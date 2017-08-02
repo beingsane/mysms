@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_94c97553d00a531f89d622dc4c4ed6a74e417d98\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.gradle\caches\modules-2\files-2.1\org.androidannotations\androidannotations-api\4.3.1\77290867db9d66d83c8426d26f9e39a65c68d7ec\androidannotations-api-4.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="77290867db9d66d83c8426d26f9e39a65c68d7ec">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\androidannotations-api-4.3.1_29d248c01d8291c0add7da9be526211ae87da504\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\ece4e15b750094bfbf075e668348152b729b0eec\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a803d888f678c0c47f8877fe37705d92a0c627a2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\2185a5ff3d88213ff698d1846ca07ba06622f9fe\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3b6faf1f01e83c40de0cde68dcfe7cc1af1972f9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\61fff3df4f32bb8d02a83415a89cbe94f828017a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e6c8631c78f2e954d8f1ea3cb81d20844c6d9068\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\1024150cb177b7351b0437724b54b43948bbbbdb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ef6579eece1f338041e5a079ffe74bc63022e18f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\f16695c902bb56cdc47ddae1fb1f7af50501b8cb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1d013057c43d40cd5924561654c4eba6c6e20895\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\5d3513cb1a60b62a0e0f153be7ba7442a138a01b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_55c8fd5a3030c3ffbf327cc7d6f03637d2d35d24\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_bc51fee339118a2d889414ef75ea413c8ecb76e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\6661c89d7825770af251798ee152906c5aa8f919\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_41d2153cf88f4eb53630a7d36006c7a1565c969b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\434b37ad49bce34a15a66022c14d6dd8e9bff599\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a47b695e3d7bc5b7aa4013f1ab5499437e8f6275\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3110f1ace29b8f59528d562b9ecd534a09844570">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c07b5a4877581c0b07ebd364b7f9064d8c8e41f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\80ec06d8bdab726cc364038290485c7363468175\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5782a9b65abe3b02129b350086a9095e6ce3ceff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\4431ea7b9d98464fb48281d99bb136159ac3c163\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_74b53c783eb4d801fd5b9f41be14f7da75eb6b10\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\5d3be4d7f9a4f01d2c8a4156719394443ab194ab\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_ae1bdf0255d797544e88278ac4dbd93b18a6c18a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\03ac2562a21522ed7ce325e36e218108e052ef6f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1b0833ec573bc1bc6f4595389fecd806eb1cbf39\classes.dex" />
+    </item>
+
+</items>
