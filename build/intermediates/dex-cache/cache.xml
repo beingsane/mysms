@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="C:\Users\Cliente\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_e4e611dbd2df1bbe3678d5081193e2f0517a2500\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -84,6 +93,15 @@
     </item>
     <item
         is-multidex="true"
+        jar="C:\Users\Cliente\.android\build-cache\7a552bb5de7858db41acf0eaf115dccef1a5a5b2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_41ecdbb7d70ada4a7251ddaf8dd11584bec686fd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Cliente\.android\build-cache\6661c89d7825770af251798ee152906c5aa8f919\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -106,7 +124,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="4fb223e1aae0b2341e181b3b1f4e912be452d119">
+        sha1="99bab4b785a376bd613f44e64468e39af1443317">
         <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c07b5a4877581c0b07ebd364b7f9064d8c8e41f6\classes.dex" />
     </item>
     <item

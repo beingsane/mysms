@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">MySms</string>
     <string name="action_settings">Settings</string>
+    <string name="labelMessagerButton">Enviar</string>
+    <string name="labelForSpinner">De:</string>
+    <string name="seuContado">Selecione seu contado</string>
+    <string name="para">Para:</string>
 </resources>

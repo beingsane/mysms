@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-apply plugin : 'android-apt'
+apply plugin: 'android-apt'
 def AAVersion = '4.3.1'
 
 android {
@@ -7,7 +7,7 @@ android {
     buildToolsVersion "25.0.0"
     defaultConfig {
         applicationId "br.com.blooger.phpryder.mysms"
-        minSdkVersion 14
+        minSdkVersion 17
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -26,18 +26,18 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:26.+'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha7'
-    compile 'com.android.support:design:26.+'
-    testCompile 'junit:junit:4.12'
 
     apt "org.androidannotations:androidannotations:$AAVersion"
     compile "org.androidannotations:androidannotations-api:$AAVersion"
 
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.android.support:design:26.+'
+    testCompile 'junit:junit:4.12'
 }
 
 apt {
-    arguments{
+    arguments {
         //you should set your package name here if you are using different application IDs
         // resourcePackageName "your.package.name"
 

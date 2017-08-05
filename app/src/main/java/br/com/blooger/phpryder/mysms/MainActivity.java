@@ -1,13 +1,15 @@
 package br.com.blooger.phpryder.mysms;
 
+import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+
 import org.androidannotations.annotations.AfterViews;
+import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 
@@ -23,15 +25,21 @@ public class MainActivity extends AppCompatActivity {
     @AfterViews
     protected void init(){
         setSupportActionBar(toolbar);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
+
     }
 
+    @Click
+    protected void fab(View view){
+
+        intencao(MessegerActivity_.class);
+
+    }
+
+
+    protected void intencao(Class classe){
+        Intent intent = new Intent(this, classe);
+        startActivity(intent);
+    }
 
 
     @Override
