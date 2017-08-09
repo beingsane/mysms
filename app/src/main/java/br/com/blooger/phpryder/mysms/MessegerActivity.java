@@ -59,7 +59,7 @@ public class MessegerActivity extends AppCompatActivity {
 
     }
 
-    protected void Agenda(){
+    private void Agenda(){
         Uri agenda = ContactsContract.Contacts.CONTENT_URI;
         //contados.add(new Contado(agenda.getUserInfo()));
         Log.i("Agenda",ContactsContract.Contacts.DISPLAY_NAME);

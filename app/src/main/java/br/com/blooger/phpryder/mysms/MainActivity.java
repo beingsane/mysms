@@ -7,7 +7,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
@@ -25,22 +24,17 @@ public class MainActivity extends AppCompatActivity {
     @AfterViews
     protected void init(){
         setSupportActionBar(toolbar);
-
     }
 
     @Click
     protected void fab(View view){
-
-        intencao(MessegerActivity_.class);
-
+        intencao(NovaMensagemActivity_.class);
     }
 
-
-    protected void intencao(Class classe){
+     private void intencao(Class classe){
         Intent intent = new Intent(this, classe);
         startActivity(intent);
     }
-
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
