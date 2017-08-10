@@ -27,11 +27,6 @@ public class MessegerActivity extends AppCompatActivity {
 
     protected List<String> list = new ArrayList<>();
 
-
-    protected  Contado contado;
-
-    protected List<Contado> contados = new ArrayList<>();
-
     @ViewById
     protected Button btnEnviar;
 
@@ -46,12 +41,6 @@ public class MessegerActivity extends AppCompatActivity {
     protected void init(){
 
         Agenda();
-        if (contados.size() != 0) {
-            for (int i = 0; i < contados.size(); i++) {
-                contado = contados.get(i);
-                list.add(contado.getName());
-            }
-        }
 
         ArrayAdapter<String> spinnerAdapter  = new ArrayAdapter<String>(context, android.R.layout.simple_spinner_item,list);
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

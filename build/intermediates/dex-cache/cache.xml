@@ -12,12 +12,39 @@
     </item>
     <item
         is-multidex="false"
+        jar="C:\Users\Cliente\.android\build-cache\4431ea7b9d98464fb48281d99bb136159ac3c163\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_74b53c783eb4d801fd5b9f41be14f7da75eb6b10.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_94c97553d00a531f89d622dc4c4ed6a74e417d98\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\Cliente\.android\build-cache\ece4e15b750094bfbf075e668348152b729b0eec\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.0"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
         <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_a803d888f678c0c47f8877fe37705d92a0c627a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Cliente\.android\build-cache\2185a5ff3d88213ff698d1846ca07ba06622f9fe\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_3b6faf1f01e83c40de0cde68dcfe7cc1af1972f9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -36,60 +63,6 @@
         revision="25.0.0"
         sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
         <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_41ecdbb7d70ada4a7251ddaf8dd11584bec686fd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\03ac2562a21522ed7ce325e36e218108e052ef6f\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_1b0833ec573bc1bc6f4595389fecd806eb1cbf39.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\6661c89d7825770af251798ee152906c5aa8f919\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_41d2153cf88f4eb53630a7d36006c7a1565c969b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\5d3be4d7f9a4f01d2c8a4156719394443ab194ab\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_ae1bdf0255d797544e88278ac4dbd93b18a6c18a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\434b37ad49bce34a15a66022c14d6dd8e9bff599\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_a47b695e3d7bc5b7aa4013f1ab5499437e8f6275.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\4431ea7b9d98464fb48281d99bb136159ac3c163\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_74b53c783eb4d801fd5b9f41be14f7da75eb6b10.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Cliente\.android\build-cache\2185a5ff3d88213ff698d1846ca07ba06622f9fe\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.0"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_3b6faf1f01e83c40de0cde68dcfe7cc1af1972f9.jar" />
     </item>
     <item
         is-multidex="false"
@@ -119,6 +92,24 @@
         <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_bc51fee339118a2d889414ef75ea413c8ecb76e4.jar" />
     </item>
     <item
+        is-multidex="true"
+        jar="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dbaa4c1ef8019f955c5b7e9fe8e50ca82b2349b6">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c07b5a4877581c0b07ebd364b7f9064d8c8e41f6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Cliente\.android\build-cache\03ac2562a21522ed7ce325e36e218108e052ef6f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_1b0833ec573bc1bc6f4595389fecd806eb1cbf39.jar" />
+    </item>
+    <item
         is-multidex="false"
         jar="C:\Users\Cliente\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
         jumboMode="false"
@@ -126,6 +117,24 @@
         revision="25.0.0"
         sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
         <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_e4e611dbd2df1bbe3678d5081193e2f0517a2500.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Cliente\.android\build-cache\6661c89d7825770af251798ee152906c5aa8f919\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_41d2153cf88f4eb53630a7d36006c7a1565c969b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Cliente\.android\build-cache\5d3be4d7f9a4f01d2c8a4156719394443ab194ab\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_ae1bdf0255d797544e88278ac4dbd93b18a6c18a.jar" />
     </item>
     <item
         is-multidex="false"
@@ -144,6 +153,15 @@
         revision="25.0.0"
         sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
         <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_5782a9b65abe3b02129b350086a9095e6ce3ceff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Cliente\.android\build-cache\434b37ad49bce34a15a66022c14d6dd8e9bff599\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="C:\Users\Cliente\AndroidStudioProjects\MySms\app\build\intermediates\pre-dexed\debug\classes_a47b695e3d7bc5b7aa4013f1ab5499437e8f6275.jar" />
     </item>
 
 </items>

@@ -1,6 +1,7 @@
 package br.com.blooger.phpryder.mysms;
 
 import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.Context;
 import android.database.Cursor;
 import android.provider.ContactsContract;
@@ -13,15 +14,14 @@ import android.widget.Spinner;
 import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.Click;
 import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.InstanceState;
-import org.androidannotations.annotations.NonConfigurationInstance;
 import org.androidannotations.annotations.ViewById;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
 @EActivity(R.layout.activity_nova_mensagem)
-public class NovaMensagemActivity extends Activity {
+public class NovaMensagemActivity extends Activity implements Serializable {
 
     @ViewById(R.id.tmpMsg)
     protected RecyclerView recyclerView;
@@ -31,17 +31,7 @@ public class NovaMensagemActivity extends Activity {
 
     private Context context = this;
 
-    @NonConfigurationInstance
-    protected List<Contado> contadosList = new ArrayList<>();
-
-    @NonConfigurationInstance
-    protected List<String> list = new ArrayList<>();
-
-    @InstanceState
-    protected Contado contado;
-
-    @NonConfigurationInstance
-    ArrayAdapter<String> spinnerAdapter;
+    protected List<String> list ;
 
     @ViewById(R.id.spinnerNMsg)
     protected Spinner spinner;
@@ -49,14 +39,7 @@ public class NovaMensagemActivity extends Activity {
     @AfterViews
      void init(){
        contados();
-        if (contadosList.size() != 0) {
-            for (int i = 0; i < contadosList.size(); i++) {
-                contado = contadosList.get(i);
-                list.add(contado.getName());
-            }
-        }
-
-        spinnerAdapter  = new ArrayAdapter<String>(context, android.R.layout.simple_spinner_item,list);
+        ArrayAdapter<String> spinnerAdapter = new ArrayAdapter<>(context, android.R.layout.simple_spinner_item, list);
         spinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(spinnerAdapter);
     }
@@ -71,22 +54,29 @@ public class NovaMensagemActivity extends Activity {
 
     }
 
-    private List<Contado> contados(){
-        Cursor cursor = getContentResolver().query(ContactsContract.Contacts.CONTENT_URI,null,null,null,ContactsContract.Contacts.DISPLAY_NAME);
-        int indexId = cursor.getColumnIndex(ContactsContract.Contacts._ID);
-        int indexNome = cursor.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME);
-        int indexTelephone = cursor.getColumnIndex(ContactsContract.Contacts.HAS_PHONE_NUMBER);
+    private List<String> contados(){
+        list = new ArrayList<>();
+        ContentResolver contenntResolver = getContentResolver();
+        Cursor cursor = contenntResolver.query(ContactsContract.Contacts.CONTENT_URI,null,null,null,null);
+        if(cursor.getCount()>0){
+            while(cursor.moveToNext()){
+                String id = cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts._ID));
+                String nome = cursor.getString(cursor.getColumnIndex(ContactsContract.Contacts.DISPLAY_NAME));
 
-        while (cursor.moveToNext()){
-            if(Integer.parseInt(cursor.getString(indexTelephone))>0){
-                contado = new Contado(cursor.getString(indexTelephone));
-                contadosList.add(contado);
+                Cursor phoneCursor = contenntResolver.query(ContactsContract.CommonDataKinds.Phone.CONTENT_URI,null,
+                    ContactsContract.CommonDataKinds.Phone.CONTACT_ID + " = ?" ,new String[]{id},null);
+                if(cursor.getCount()>0) {
+                    while (phoneCursor.moveToNext()) {
+                        String phoneNumber = phoneCursor.getString(phoneCursor.getColumnIndex(ContactsContract.CommonDataKinds.Phone.NUMBER));
+
+                        list.add(phoneNumber);
+                    }
+                }
             }
         }
         cursor.close();
-        return contadosList;
+
+        return list;
     }
-
-
 
 }

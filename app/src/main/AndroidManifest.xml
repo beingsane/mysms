@@ -27,5 +27,4 @@
         <activity android:name=".ListaContadoActivity_" android:label="Contados" />
         <activity android:name=".NovaMensagemActivity_" android:label="Nova Mensagem" />
     </application>
-
 </manifest>
